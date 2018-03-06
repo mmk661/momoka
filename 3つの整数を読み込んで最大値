@@ -1,0 +1,21 @@
+import java.util.*;
+
+
+public class Main {
+    public static void main(String[] args) {
+        // 自分の得意な言語で
+        // Let's チャレンジ！！
+
+        Scanner sc = new Scanner(System.in);
+
+int data1 = sc.nextInt();
+int data2 = sc.nextInt();
+int data3 = sc.nextInt();
+ 
+
+int max = data1;
+if (data2> max) max =data2;
+if (data3> max) max =data3;
+ System.out.println("最大値は" +max+ "です");
+ }
+}
