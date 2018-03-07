@@ -1,0 +1,16 @@
+// staticを理解しよう
+
+public class Main {
+    public static void main(String[] args) {
+        int total =Item.max3(1,2,3);
+        System.out.println(total);
+}
+}
+    class Item {
+     public static int max3(int a,int b, int c) {
+        int max =a;
+        if (b>max) max =b;
+        if (c>max) max =c;
+        return max;
+    }
+}
