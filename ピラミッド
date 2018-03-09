@@ -1,0 +1,34 @@
+import java.util.Scanner;
+
+
+public class Main {
+    public static void main(String[] args) throws Exception {
+      
+       
+       //段数は4段
+        int stage = 4;
+        //スペースの初期値は段数-1を設定
+        int space = stage -1;
+        //ブロックの初期値は必ず1を設定
+        int block = 1;
+        
+         //段数を管理するループ
+         for (int a =1; a<= stage; a++){
+              
+              //スペースを表示するループ
+              for(int b =1; b<=space; b++)
+              System.out.print(" ");
+              
+              //ブロックを表示するループ
+              for (int c=1; c<= block; c++)
+              System.out.print("*");
+              System.out.println();
+         
+       //スペースとブロックを変化させる
+       space = space -1;
+       block = block +2;
+       
+         }
+       
+           }
+}
